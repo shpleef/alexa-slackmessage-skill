@@ -20,7 +20,7 @@ then zip this folder and upload to Amazon Lambda for immdediate running. dont fo
 ## Intents
 
 Slots are where you get your parameters, and the slots that are available for an intent (and their data type) are defined in a schema json file:
-
+```
 {
   "intents": [
     {
@@ -43,12 +43,12 @@ Slots are where you get your parameters, and the slots that are available for an
     }
   ]
 }
-
+```
 
 ## Utterances
 
 Then we need our sentence data. These are just examples of how a user might invoke a sentence:
-
+```
 GetSlackMessage please send a message to slack
 GetSlackMessage can u write to slack
 GetSlackMessage would u notify slack
@@ -61,8 +61,9 @@ GetSlackChannel the channel to write to is {SlackChannel}
 GetSlackChannel {SlackChannel} write to this channel
 GetSlackChannel send to channel {SlackChannel}
 GetSlackChannel send to {SlackChannel}
-
+```
 ## Slots
+
 1. SlackMessage
 hey its me remeber
 what is going on man 
