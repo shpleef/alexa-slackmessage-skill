@@ -65,17 +65,20 @@ GetSlackChannel send to {SlackChannel}
 ## Slots
 
 1. SlackMessage
+```
 hey its me remeber
 what is going on man 
 i just want to send a message on slack
 screw the world
+```
 
 2. SlackChannel
+```
 plumber
 coder
 developer
 carpenter
 doctor
 tester
-
+```
 # alexa-slackmessage-skill
